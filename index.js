@@ -61,6 +61,3 @@ function showTemp() {
 
 let searchButton = document.querySelector("#search");
 searchButton.addEventListener("click", replaceCity);
-
-let currentCity = document.querySelector("#current");
-currentCity.addEventListener("click", showTemp);
